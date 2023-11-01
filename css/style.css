@@ -66,6 +66,7 @@ margin-top: 50px;
 }
 
 .my-photo{
+    text-align: center;
     flex-basis: 50%;
 }
 .about-me{
@@ -78,6 +79,42 @@ margin-top: 50px;
 
 /*  */
 
+.working-process{
+    background-color: rgb(212, 212, 212);
+    color: black;
+}
+
+.working-process {
+    margin-top: 50px;
+text-align: center;
+padding: 25px;
+}
+
+
 .work{
     
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    background-color: grey;
+    box-sizing: border-box;
+    padding: 50px 0;
+    margin: 0 5px;
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.cards i{
+    padding: 50px 0px;
+    font-size: 50px;
+}
+
+.cards span{
+    text-align: center;
+    display: block;
+    font-family: exo;
+    margin-top:5px;
 }
