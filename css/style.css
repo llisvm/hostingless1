@@ -24,7 +24,7 @@
 .initial-info{
     display: flex;
     align-items: center;
-    height: calc(60vh - 20px);
+    height: calc(70vh - 20px);
     
     
     
@@ -37,7 +37,7 @@
 .name{
     text-align: center;
     font-family: exo;
-    font-size: 60px;
+    font-size: 100px;
     
 }
 
@@ -48,7 +48,7 @@
 .hashtags{
     text-align: center;
     font-family: exo;
-    font-size: 20px;
+    font-size: 30px;
     padding-top:10px ;
 }
 /*  */
@@ -60,7 +60,7 @@ margin-top: 50px;
 }
 
 .my-container{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: row;
 }
@@ -91,7 +91,7 @@ padding: 25px;
 }
 
 
-.work{
+.process{
     
     margin-top: 15px;
     display: flex;
@@ -101,10 +101,11 @@ padding: 25px;
 .cards{
     background-color: grey;
     box-sizing: border-box;
-    padding: 50px 0;
+    padding: 80px 0;
     margin: 0 5px;
     flex-basis: 25%;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .cards i{
@@ -117,4 +118,150 @@ padding: 25px;
     display: block;
     font-family: exo;
     margin-top:5px;
+}
+
+.work-and-study{
+    display: flex;
+    justify-content: center;
+    background:radial-gradient(circle, white , whitesmoke ); 
+    padding: 100px 0;
+}
+
+.work-exp{
+    padding: 25px;
+    flex-basis: 50%;
+    margin: 0px 10px;
+    background:radial-gradient(circle, darkgrey , lightgrey ); 
+   
+}
+.education{
+    padding: 25px;
+    flex-basis: 50%;
+    margin: 0px 10px;
+    background:radial-gradient(circle, darkgrey , lightgrey ); 
+}
+
+/*  */
+
+.block-latest-works{
+    padding:100px 0 ;
+}
+
+.block-latest-works h4{
+    padding-bottom: 5px ;
+    font-size:50px ;
+}
+
+.block-latest-works span{
+    padding: 25px 0;
+    font-size: 20px;
+}
+
+.rows-w-work{
+    display: flex;
+}
+
+.sm-work{
+    flex-basis: 25%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 5px;
+    background:radial-gradient(circle, darkgrey , lightgrey );
+    text-align: center;
+    font-size: 55px; 
+}
+
+
+.lg-work{
+    flex-basis: 50%;
+    padding: 100px 0px;
+    margin: 5px;
+    font-size: 55px;
+    text-align: center;
+    background:radial-gradient(circle, darkgrey , lightgrey ); 
+}
+
+.container-center{
+    display: flex;
+    justify-content: center;
+}
+
+
+.block-w-text{
+    background-color: lightgrey;
+    padding: 50px 0;
+}
+
+.apostrophe img{
+    width: 32px;
+    transform: rotate(180deg);
+}
+
+.signature{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/* */
+.forms{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: whitesmoke;
+}
+
+.message{
+    flex-basis: 50%;
+    margin: 0 25px;
+    
+}
+
+.message div{
+    text-align:center ;
+    margin: 20px 0 ;
+}
+
+.contact-info{
+    flex-basis: 50%;
+    margin: 0 25px;
+}
+
+.form-control{
+    width: 80%;
+}
+
+.address{
+    margin: 20px 0;
+    padding: 15px;
+    background:radial-gradient(circle, darkgrey , lightgrey );
+    border-radius: 15px;
+}
+.phone{
+    margin: 20px 0;
+    padding: 15px;
+    background:radial-gradient(circle, darkgrey , lightgrey );
+    border-radius: 15px;
+}
+.web{
+    margin: 20px 0;
+    padding: 15px;
+    background:radial-gradient(circle, darkgrey , lightgrey );
+    border-radius: 15px;
+}
+
+.form{
+    padding: 15px;
+    background:radial-gradient(circle, darkgrey , lightgrey );
+    border-radius: 15px;
+}
+
+.enter-date{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    
 }
