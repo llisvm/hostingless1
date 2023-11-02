@@ -84,6 +84,20 @@ margin-top: 50px;
     color: black;
 }
 
+.icons{
+    margin: auto;
+}
+
+footer{
+    background-color: darkgrey;
+    padding: 50px 0;
+}
+
+.icons span{
+    padding: 0px 5px;
+   
+}
+
 .working-process {
     margin-top: 50px;
 text-align: center;
@@ -263,5 +277,14 @@ padding: 25px;
 .footer{
     display: flex;
     justify-content: center;
+    
+}
+
+.copyright{
+    padding: 5px 0;
+    margin: auto;
+}
+
+@media (max-width:1100px) {
     
 }
